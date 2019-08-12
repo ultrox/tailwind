@@ -1,0 +1,22 @@
+{
+  "name": "@ma.vu/something",
+  "version": "0.0.0-development",
+  "description": "hello",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [],
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss today/style.css -o ./today/public/out.css"
+  },
+  "keywords": [],
+  "author": "Marko Vujanic",
+  "license": "MIT"
+}
