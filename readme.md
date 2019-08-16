@@ -61,3 +61,16 @@ A: Use negative margin
 
 ## Form Elements:
 - Two form element in the [row - using -mx-2](https://youtu.be/YY2IM7tMEh4?t=3069) 
+
+
+## Resources
+- http://lorempixel.com/
+```
+<img src="https://lorempixel.com/400/200" />
+<img src="https://lorempixel.com/400/200/people/1" />
+<img src="https://lorempixel.com/400/200/people" />
+<img src="https://lorempixel.com/400/200/people/Life-Is-Greate" />
+
+"
+```
+* [hero patterns](http://www.heropatterns.com/)
