@@ -45,6 +45,8 @@ A: Use negative margin
 * eyebrow text, make elegance _(adding smaller text above bigger )_
 * **Most people forget:** How to handle text wrapping
 * Handle big chunk of text with `truncate`
+* Use anti aliased when you have text on [ dark background ](https://youtu.be/_JhTaENzfZQ?t=432)
+* You can disable wrapping of text [no wra](https://youtu.be/_JhTaENzfZQ?t=2080)
 
 ### Badge
 * use flex & `items-baseline` to alight together
@@ -74,3 +76,43 @@ A: Use negative margin
 "
 ```
 * [hero patterns](http://www.heropatterns.com/)
+
+
+
+## Time Line:
+* [Update Button 01h:09min](https://youtu.be/YY2IM7tMEh4?t=4144)
+* [max-width Search that scales](https://youtu.be/5LQ9igKq_Nw?t=1228)
+* [button to left from full ](https://youtu.be/5LQ9igKq_Nw?t=1288)
+
+
+## Build Netlify
+
+- [git](https://github.com/adamwathan/rebuilding-netlify)
+
+* [Start Navigation](https://youtu.be/_JhTaENzfZQ?t=1629)
+* [Floating Window below nav](https://youtu.be/_JhTaENzfZQ?t=2409)
+* [Using flex-1 to allign](https://youtu.be/_JhTaENzfZQ?t=2884)
+* [Pull the floating w up](https://youtu.be/_JhTaENzfZQ?t=3097)
+
+* [2 column](https://youtu.be/_JhTaENzfZQ?t=3280)
+
+### Left Column
+* [add border to all left items](https://youtu.be/_JhTaENzfZQ?t=3596)
+* [left column border on items](https://youtu.be/_JhTaENzfZQ?t=3717)
+* [make it sticky](https://youtu.be/_JhTaENzfZQ?t=5095)
+
+### Site Details 
+
+* [Start](https://youtu.be/_JhTaENzfZQ?t=4021)
+* [Inner Site Table](https://youtu.be/_JhTaENzfZQ?t=4273)
+* [problem with td row not go to the end](https://youtu.be/_JhTaENzfZQ?t=4887)
+* [start footer](https://youtu.be/_JhTaENzfZQ?t=4953)
+
+
+## Borders
+* [Only Border Color for whole el, not individual](https://youtu.be/_JhTaENzfZQ?t=3896)
+* [dealing with problem with border](https://youtu.be/_JhTaENzfZQ?t=3763)
+
+
+## Container
+[container is size of current breaking point](https://youtu.be/_JhTaENzfZQ?t=3912)
