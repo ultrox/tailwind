@@ -16,8 +16,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "live-server today/public",
-    "build": "postcss today/style.css -o ./today/public/out.css"
+    "start": "live-server working/public",
+    "build": "postcss working/style.css -o ./working/public/build/tailwind.css"
   },
   "keywords": [],
   "author": "Marko Vujanic",
