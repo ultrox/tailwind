@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/build/tailwind.css">
+    <link rel="stylesheet" href="./build/tailwind.css">
   </head>
   <body class="leading-tight bg-gray-200 text-gray-900 antialiased font-sans">
     <header class="pb-20 bg-gray-900 text-white">
@@ -44,7 +44,7 @@
           <a class="inline-block mr-4 py-2" href="#">Large Media</a>
           <a class="inline-block mr-4 py-2" href="#">Split Testing</a>
           <a class="inline-block mr-4 py-2" href="#">Analytics</a>
-          <a class="inline-block mr-4 py-2" href="#">Settings</a>
+          <a class="inline-block mr-4 py-2 " href="#">Settings</a>
         </nav>
       </div>
     </header>
@@ -99,7 +99,25 @@
                   <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Access control</a>
                 </div>                                           
         </aside>
-        <section class=""> Site Details</section>
+        <section id="middle_section" class="flex-1 px-12"> 
+          <div id="site_details" class="mb-6">
+            <h2 class="text-2xl font-bold mb-2">Site Details</h2>
+            <p class="text-gray-600">
+              General information about your site
+            </p>
+          </div>
+          <div id="site_information" class="flex-1 bg-white rounded-lg shadow-md p-6 mb-6">
+            <h3 class="text-xl font-bold pb-4 border-b-2 border-gray-300">Site Information</h3>
+            <div class="">
+              <div id="user_props">
+                
+              </div>
+              <div id="user_values">
+                
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
         
@@ -107,7 +125,7 @@
         <div class="">
           <span class="mr-6">Docs</span>
           <span class="mr-6">Pricing</span>
-          <span class="mr-6">Support</span> 
+          <span class="mr-6 ">Support</span> 
           <span class="mr-6">News</span>
           <span class="mr-6">Terms</span>
         </div>
