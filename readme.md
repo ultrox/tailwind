@@ -59,7 +59,8 @@ A: Use negative margin
 
 ## Buttons
 - Make sure Click target of button is [bigger](https://youtu.be/YY2IM7tMEh4?t=1243)
- - [Remove outline](https://youtu.be/YY2IM7tMEh4?t=1398) & make give visual cue when tab to it
+- [Remove outline](https://youtu.be/YY2IM7tMEh4?t=1398) & make give visual cue when tab to it
+* Use flex inside button if you add [span inside](https://stackoverflow.com/questions/35464067/flexbox-not-working-on-button-or-fieldset-elements/35466231#35466231)
 
 ## Form Elements:
 - Two form element in the [row - using -mx-2](https://youtu.be/YY2IM7tMEh4?t=3069) 
@@ -116,3 +117,14 @@ A: Use negative margin
 
 ## Container
 [container is size of current breaking point](https://youtu.be/_JhTaENzfZQ?t=3912)
+
+### Building Refactor UI
+
+* `overflow-hidden` When you have rounded border
+- `<br/>` its usually in-line, but you can make it responsive by making it hidden on [ certain sizes ](https://youtu.be/17OBlxY2C_0?t=3250)
+
+* Negative Margines to help you center cards inside container
+* Hackary with flexbox to align cards inside
+* Make button flex in >sm, stack them below sm
+
+https://refactoringui.com/
