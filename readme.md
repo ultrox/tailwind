@@ -20,6 +20,10 @@
 - Working on [filter](https://youtu.be/0aTRN9CSCY0?t=2679)
 - Working on [card](https://youtu.be/0aTRN9CSCY0?t=3741)
 
+* Reasoning about [div structure](https://tailwindcss.com/course/structuring-a-basic-card)3:12
+   * Root div is for outside, edges how it look
+   * add div for 'content'
+
 ## Deal with Width of a cards
 1. put it inside container with horizontal padding 
 2. add margin on outside of card
@@ -128,3 +132,35 @@ A: Use negative margin
 * Make button flex in >sm, stack them below sm
 
 https://refactoringui.com/
+
+
+## Course
+
+### [Structure Basic card](https://tailwindcss.com/course/structuring-a-basic-card)
+- How to reason about basic div structure
+* using overflow-hidden to hide image poking on rounded corner
+* dealing with constrict, using border
+
+
+### [Making Text Content Feel Deisgned](https://tailwindcss.com/course/making-text-content-feel-designed/)
+* look for opportunities to deemphasize stuff
+* Use sm upper tracking-wide text
+* use eyebrow technique
+
+# Defaults
+* Add reasonable defaults on root of the app
+  * this is body for plane html, root el for React in App
+
+
+
+
+### [ Designing a badge ](https://tailwindcss.com/course/designing-a-badge)
+
+- To pop (dark background, white text)
+- To discrete (lighter background, dark text)
+
+### [Images](https://tailwindcss.com/course/locking-images-to-a-fixed-aspect-ratio)
+
+* Use object-<thing> to manipulate images
+* specify aspect ration with following tricks
+* when you give padding % sizing, its always based of element width

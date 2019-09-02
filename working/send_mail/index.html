@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,initial-scale=1"
+    />
+    <meta charset="utf-8" />
+    <meta name="next-head-count" content="2" />
+    <link rel="stylesheet" href="./build/tailwind.css" />
+  </head>
+
+  <body class="bg-gray-200 text-gray-900 antialiased font-sans">
+    <div class="container mx-auto px-5 text-lg">
+      <div>
+        <div class="hero mb-8 text-center">
+          <h1 class="text-4xl">Grit Scale!</h1>
+          <p class="description">
+            To get started, edit the <code>pages/index.js</code> or
+          </p>
+        </div>
+        <div class="text-gray-600">
+          <div class="mb-4 max-w-lg">
+            <h2 class="mb-3 text-2xl text-gray-700 font-medium leading-tight">
+              New ideas and projects sometimes distract me from previous ones.
+            </h2>
+            <label class="mb-1 flex items-center"> 
+              <input class="form-radio" type="radio" value="1" name="distractMe" />
+              <span class="ml-2">
+                Very much like me</span>
+            </label>
+
+            <label class="mb-1 flex items-center">
+              <input class="form-radio" type="radio" value="2" name="distractMe" />
+              <span class="ml-2">
+                Mostly like me</span></label>
+
+            <label class='mb-1 flex items-center'>
+              <input class="form-radio" type="radio" value="3" name="distractMe" />
+              <span class="ml-2">
+                Somewhat like me</span></label>
+
+            <label class='mb-1 flex items-center'>
+              <input class="form-radio" type="radio" value="4" name="distractMe" />
+              <span class="ml-2">
+                Not much like me</span>
+            </label>
+
+            <label class='mb-1 flex items-center'>
+              <input class="form-radio" type="radio" value="5" name="distractMe" />
+              <span class="ml-2">
+                Not like me at all</span>
+            </label>
+            <br />
+          </div>
+
+          <div class="mb-4 max-w-lg">
+            <h2 class="mb-3 text-2xl text-gray-700 font-medium">
+              Setbacks don’t discourage me. I don’t give up easily.
+            </h2>
+
+            <label>
+              <input type="radio" value="5" name="setbacks" />Very much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="4" name="setbacks" />Mostly like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="3" name="setbacks" />Somewhat like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="2" name="setbacks" />Not much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="1" name="setbacks" />Not like me at
+              all</label
+            >
+          </div>
+          <div class="mb-4 max-w-lg">
+            <h2 class="mb-3 text-2xl text-gray-700 font-medium">
+              I often set a goal but later choose to pursue a different one.
+            </h2>
+            <label>
+              <input type="radio" value="1" name="diffGoal" />Very much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="2" name="diffGoal" />Mostly like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="3" name="diffGoal" />Somewhat like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="4" name="diffGoal" />Not much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="5" name="diffGoal" />Not like me at
+              all</label
+            >
+          </div>
+          <div class="mb-4 max-w-lg">
+            <h2 class="mb-3 text-2xl text-gray-700 font-medium">
+              I am a hard worker
+            </h2>
+
+            <label>
+              <input type="radio" value="5" name="hard" />Very much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="4" name="hard" />Mostly like me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="3" name="hard" />Somewhat like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="2" name="hard" />Not much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="1" name="hard" />Not like me at
+              all</label
+            >
+          </div>
+          <div class="mb-4 max-w-lg">
+            <h2 class="mb-3 text-2xl text-gray-700 font-medium">
+              I have difficulty maintaining my focus on projects that take more
+              than a few months to complete.
+            </h2>
+            <label>
+              <input type="radio" value="1" name="focus" />Very much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="2" name="focus" />Mostly like me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="3" name="focus" />Somewhat like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="4" name="focus" />Not much like
+              me</label
+            >
+            <br />
+            <label>
+              <input type="radio" value="5" name="focus" />Not like me at
+              all</label
+            >
+          </div>
+        </div>
+
+        <label class="block">
+          <span class="text-gray-700">Name</span>
+          <input class="form-input mt-1 block w-full" placeholder="Jane Doe" />
+        </label>
+
+        <label class="block">
+          <span class="text-gray-700">Email</span>
+          <input type="email" required class="form-input mt-1 block w-full" placeholder="jane@gmail.com" />
+        </label>
+        
+        <div class="flex mt-6">
+          <label class="flex items-center">
+            <input type="checkbox" class="form-checkbox" />
+            <span class="ml-2"
+              >I agree to the
+              <span class="underline">privacy policy</span></span
+            >
+          </label>
+        </div>
+        <button
+          type="click"
+          class="px-8 bg-indigo-500 active:bg-indigo-400 text-xl hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed"
+        >
+          Get Me My Score
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

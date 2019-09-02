@@ -68,36 +68,38 @@
       </section>
 
       <div class="flex">
-        <aside class="flex flex-col w-64 bg-white border rounded-lg font-medium
+        <aside class="flex-none w-64 bg-white border rounded-lg font-medium
         text-normal text-gray-500 overflow-hidden">
-          <div class="border-b">
-            <a href="#" class="hover:bg-gray-200 block border-l-2 border-netly font-semibold text-black px-4 py-3">General</a>
-          </div>
-          <div class="bg-gray-100 flex flex-col font-normal text-sm">
-            <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block text-black">Site details</a> </div>                                           
-            <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block">Site administrators</a> </div>
-            <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block">Danger zone</a></div>
-          </div>
-          <div class="border-b">
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Build & deploy</a>
-          </div>                                           
-          <div class="border-b">                           
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Domain management</a>
-          </div>                                          
+          <div class="sticky top-0 align-top">
+            <div class="border-b">
+              <a href="#" class="hover:bg-gray-200 block border-l-2 border-netly font-semibold text-black px-4 py-3">General</a>
+            </div>
+            <div class="bg-gray-100 flex flex-col font-normal text-sm">
+              <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block text-black">Site details</a> </div>                                           
+              <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block">Site administrators</a> </div>
+              <div class="border-b"><a href="#" class="py-3 pl-6 hover:bg-gray-200 block">Danger zone</a></div>
+            </div>
+            <div class="border-b">
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Build & deploy</a>
+            </div>                                           
+            <div class="border-b">                           
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Domain management</a>
+            </div>                                          
 
-          <div class="border-b">                           
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Functions</a>
-          </div>                                          
-          <div class="border-b">                           
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Identity</a>
-          </div>                                          
-          <div class="border-b">                         
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Forms</a>
-          </div>                                           
+            <div class="border-b">                           
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Functions</a>
+            </div>                                          
+            <div class="border-b">                           
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Identity</a>
+            </div>                                          
+            <div class="border-b">                         
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Forms</a>
+            </div>                                           
 
-          <div class="border-b">                           
-            <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Access control</a>
-          </div>                                           
+            <div class="border-b">                           
+              <a href="#" class="py-3 pl-5 hover:bg-gray-200 block">Access control</a>
+            </div>                                           
+          </div>
         </aside>
         <section id="main_middle_section" class="flex-1 px-16 mb-5"> 
           <div id="site_details" class="mb-6">
@@ -113,12 +115,20 @@
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Site Name:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3">elated-stonebraker-70896a </div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <a href="#" class="border-b hover:border-gray-800">elated-stonebraker-70896a</a> 
+                </div>
               </div>
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Owner:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3"><span>John Doe</span></div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <button class="bg-gray-300 hover:bg-gray-400 px-4 py-2 font-medium rounded text-gray-900 flex justify-center items-center">
+                    John Doe
+                  <svg class="h-4 w-4 fill-current ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
+                  </button>
+                </div>
               </div>
 
               <div class="table-row">
@@ -128,7 +138,9 @@
 
               <div class="table-row">
                 <div class="table-cell w-1/4 px-4 pt-2 pb-3">Repository:</div>
-                <div class="table-cell w-3/4 px-8 pt-2 pb-3"><a href="github.com/tailwindcss/docs" target="_blank">github.com/tailwindcss/docs</a></div>
+                <div class="table-cell w-3/4 px-8 pt-2 pb-3">
+                  <a href="github.com/tailwindcss/docs" class="border-b hover:border-gray-800">github.com/tailwindcss/docs</a> 
+                </div>
               </div>
 
               <div class="table-row">
@@ -143,7 +155,9 @@
             </div>
 
               
-              <button id="change_s_name" class="px-6 py-3 shadow border-gray-400 border">Change site name</button>
+              <button id="change_s_name" class="px-6 py-3 hover:bg-gray-200 rounded shadow border-gray-400 border">
+                Change site name
+              </button>
           </div>
 
           <div id="add-ons" class="flex-1 bg-white rounded-lg shadow-md p-6 mb-6">
@@ -156,7 +170,8 @@
               Automatically upgrade tiers as your usage grows, paying only for what you use.
             </p>
             <p>
-              <a href="#" class="text-netly font-semibold text-lg">Learn more about pricing and usage </a>
+              <a href="#" class="text-netly hover:underline font-semibold text-lg mr-1">Learn more about pricing and usage </a>
+              <span class='text-netly fill-current rotate-40deg font-bold'>→</span>
             </p>
               
             </div>
