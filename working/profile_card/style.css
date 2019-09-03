@@ -1,0 +1,55 @@
+.comment {
+    display: flex;
+}
+
+.comment p {
+    flex-basis: 50%;
+}
+
+.avatar {
+    flex-basis: 8%;
+}
+
+.comment .info {
+    flex-basis: 17%;
+}
+
+.comment.author-comment {
+    justify-content: flex-end;
+}
+
+.author-comment .info {
+    order: 3;
+}
+
+.author-comment .avatar {
+    order: 2;
+}
+
+.info {
+ outline: 1px solid blue;
+}
+.comment p {
+  outline: 1px solid red;
+}
+
+.comment {
+  margin-bottom : 45px;
+}
+
+/* not important */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 13px sans-serif;
+}
+
+.comment-section {
+  max-width : 800px;
+  margin    : 50px auto;
+}
+
