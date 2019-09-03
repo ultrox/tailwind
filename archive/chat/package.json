@@ -4,11 +4,8 @@
   "description": "",
   "main": "public/index.html",
   "scripts": {
-    "dev": "live-server send_mail",
-    "build": "postcss css/tailwind.css -o send_mail/build/tailwind.css",
-    "dev:chat": "live-server chat",
-    "build:chat": "postcss css/tailwind.css -o chat/build/tailwind.css"
-    
+    "dev": "live-server .",
+    "build": "postcss css/tailwind.css -o build/tailwind.css"
   },
   "repository": {
     "type": "git",

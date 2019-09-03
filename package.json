@@ -1,25 +1,30 @@
 {
-  "name": "@ma.vu/something",
-  "version": "0.0.0-development",
-  "description": "hello",
-  "publishConfig": {
-    "access": "public"
-  },
-  "files": [],
-  "main": "index.js",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
-    "autoprefixer": "^9.6.1",
-    "plop": "^2.4.0",
-    "postcss-cli": "^6.1.3",
-    "tailwindcss": "^1.1.1"
-  },
-  "devDependencies": {},
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
   "scripts": {
-    "start": "live-server working/public",
-    "build": "postcss working/style.css -o ./working/public/build/tailwind.css"
+    "dev": "live-server send_mail",
+    "build": "postcss css/tailwind.css -o send_mail/build/tailwind.css",
+    "dev:chat": "live-server chat",
+    "build:chat": "postcss css/tailwind.css -o chat/build/tailwind.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamwathan/my-tailwind-project.git"
   },
   "keywords": [],
-  "author": "Marko Vujanic",
-  "license": "MIT"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamwathan/my-tailwind-project/issues"
+  },
+  "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
+  "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.0",
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  }
 }
