@@ -1,0 +1,28 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server .",
+    "build": "postcss css/tailwind.css -o build/tailwind.css"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamwathan/my-tailwind-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamwathan/my-tailwind-project/issues"
+  },
+  "homepage": "https://github.com/adamwathan/my-tailwind-project#readme",
+  "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.0",
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  }
+}
