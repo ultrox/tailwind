@@ -6,7 +6,7 @@
 
 ## SVG
 - Always export icons as squares `viewBox="0 0 x x"` (easier to size them)
-- use w-x h-x to size them
+- use w-x h-x to size svg icons
 - color control with fill-current & text-COLOR 
 - aligning with flex
 * when you want to align text & icons next to them use [flex & item-center](https://youtu.be/0aTRN9CSCY0?t=2320)
@@ -20,7 +20,7 @@
 - Working on [filter](https://youtu.be/0aTRN9CSCY0?t=2679)
 - Working on [card](https://youtu.be/0aTRN9CSCY0?t=3741)
 
-* Reasoning about [div structure](https://tailwindcss.com/course/structuring-a-basic-card)3:12
+* Reasoning about [div structure](https://tailwindcss.com/course/structuring-a-basic-card) 3:12
    * Root div is for outside, edges how it look
    * add div for 'content'
 
@@ -164,3 +164,5 @@ https://refactoringui.com/
 * Use object-<thing> to manipulate images
 * specify aspect ration with following tricks
 * when you give padding % sizing, its always based of element width
+
+## Build Pricing Grid
